@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+    <H1>BMI계산기</H1>
+    <div>
+    
+      <lable for="height">키(cm)</lable>
+    
+      <input type="text" id="height" placeholder="예:170">
+    
+    </div>
+    
+    <div>
+    
+      <lable for="weight">몸무게(kg)</lable>
+    
+      <input type="text" id="weight" placeholder="예:67">
+    
+    </div>
+    
+    <button onclick="calculateBMI();">계산하기</button>
+    
+    <h2 id="result"></h2>
+    <h3 id="state"></h3>
+    
+    <script src="./script.js"></script>
+  </body>
+</html>
